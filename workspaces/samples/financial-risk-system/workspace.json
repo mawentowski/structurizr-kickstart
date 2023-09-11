@@ -1,0 +1,337 @@
+{
+  "id" : 1,
+  "name" : "Financial Risk System",
+  "description" : "This is a simple (incomplete) example C4 model based upon the financial risk system architecture kata, which can be found at http://bit.ly/sa4d-risksystem",
+  "lastModifiedDate" : "2023-09-11T11:40:37Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJGaW5hbmNpYWwgUmlzayBTeXN0ZW0iICJUaGlzIGlzIGEgc2ltcGxlIChpbmNvbXBsZXRlKSBleGFtcGxlIEM0IG1vZGVsIGJhc2VkIHVwb24gdGhlIGZpbmFuY2lhbCByaXNrIHN5c3RlbSBhcmNoaXRlY3R1cmUga2F0YSwgd2hpY2ggY2FuIGJlIGZvdW5kIGF0IGh0dHA6Ly9iaXQubHkvc2E0ZC1yaXNrc3lzdGVtIiB7CgogICAgbW9kZWwgewogICAgICAgIGJ1c2luZXNzVXNlciA9IHBlcnNvbiAiQnVzaW5lc3MgVXNlciIgIkEgcmVndWxhciBidXNpbmVzcyB1c2VyLiIKICAgICAgICBjb25maWd1cmF0aW9uVXNlciA9IHBlcnNvbiAiQ29uZmlndXJhdGlvbiBVc2VyIiAiQSByZWd1bGFyIGJ1c2luZXNzIHVzZXIgd2hvIGNhbiBhbHNvIGNvbmZpZ3VyZSB0aGUgcGFyYW1ldGVycyB1c2VkIGluIHRoZSByaXNrIGNhbGN1bGF0aW9ucy4iCgogICAgICAgIGZpbmFuY2lhbFJpc2tTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiRmluYW5jaWFsIFJpc2sgU3lzdGVtIiAiQ2FsY3VsYXRlcyB0aGUgYmFuaydzIGV4cG9zdXJlIHRvIHJpc2sgZm9yIHByb2R1Y3QgWC4iICJGaW5hbmNpYWwgUmlzayBTeXN0ZW0iICB7CiAgICAgICAgICAgICFkb2NzIGRvY3MKICAgICAgICAgICAgIWFkcnMgYWRycwogICAgICAgIH0KCiAgICAgICAgdHJhZGVEYXRhU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIlRyYWRlIERhdGEgU3lzdGVtIiAiVGhlIHN5c3RlbSBvZiByZWNvcmQgZm9yIHRyYWRlcyBvZiB0eXBlIFguIgogICAgICAgIHJlZmVyZW5jZURhdGFTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiUmVmZXJlbmNlIERhdGEgU3lzdGVtIiAiTWFuYWdlcyByZWZlcmVuY2UgZGF0YSBmb3IgYWxsIGNvdW50ZXJwYXJ0aWVzIHRoZSBiYW5rIGludGVyYWN0cyB3aXRoLiIKICAgICAgICByZWZlcmVuY2VEYXRhU3lzdGVtVjIgPSBzb2Z0d2FyZVN5c3RlbSAiUmVmZXJlbmNlIERhdGEgU3lzdGVtIHYyLjAiICJNYW5hZ2VzIHJlZmVyZW5jZSBkYXRhIGZvciBhbGwgY291bnRlcnBhcnRpZXMgdGhlIGJhbmsgaW50ZXJhY3RzIHdpdGguIiAiRnV0dXJlIFN0YXRlIgogICAgICAgIGVtYWlsU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIkUtbWFpbCBzeXN0ZW0iICJUaGUgYmFuaydzIE1pY3Jvc29mdCBFeGNoYW5nZSBzeXN0ZW0uIgogICAgICAgIGNlbnRyYWxNb25pdG9yaW5nU2VydmljZSA9IHNvZnR3YXJlU3lzdGVtICJDZW50cmFsIE1vbml0b3JpbmcgU2VydmljZSIgIlRoZSBiYW5rJ3MgY2VudHJhbCBtb25pdG9yaW5nIGFuZCBhbGVydGluZyBkYXNoYm9hcmQuIgogICAgICAgIGFjdGl2ZURpcmVjdG9yeSA9IHNvZnR3YXJlU3lzdGVtICJBY3RpdmUgRGlyZWN0b3J5IiAiVGhlIGJhbmsncyBhdXRoZW50aWNhdGlvbiBhbmQgYXV0aG9yaXNhdGlvbiBzeXN0ZW0uIgoKICAgICAgICBidXNpbmVzc1VzZXIgLT4gZmluYW5jaWFsUmlza1N5c3RlbSAiVmlld3MgcmVwb3J0cyB1c2luZyIKICAgICAgICBmaW5hbmNpYWxSaXNrU3lzdGVtIC0+IHRyYWRlRGF0YVN5c3RlbSAiR2V0cyB0cmFkZSBkYXRhIGZyb20iCiAgICAgICAgZmluYW5jaWFsUmlza1N5c3RlbSAtPiByZWZlcmVuY2VEYXRhU3lzdGVtICJHZXRzIGNvdW50ZXJwYXJ0eSBkYXRhIGZyb20iCiAgICAgICAgZmluYW5jaWFsUmlza1N5c3RlbSAtPiByZWZlcmVuY2VEYXRhU3lzdGVtVjIgIkdldHMgY291bnRlcnBhcnR5IGRhdGEgZnJvbSIgIiIgIkZ1dHVyZSBTdGF0ZSIKICAgICAgICBjb25maWd1cmF0aW9uVXNlciAtPiBmaW5hbmNpYWxSaXNrU3lzdGVtICJDb25maWd1cmVzIHBhcmFtZXRlcnMgdXNpbmciCiAgICAgICAgZmluYW5jaWFsUmlza1N5c3RlbSAtPiBlbWFpbFN5c3RlbSAiU2VuZHMgYSBub3RpZmljYXRpb24gdGhhdCBhIHJlcG9ydCBpcyByZWFkeSB0byIKICAgICAgICBlbWFpbFN5c3RlbSAtPiBidXNpbmVzc1VzZXIgIlNlbmRzIGEgbm90aWZpY2F0aW9uIHRoYXQgYSByZXBvcnQgaXMgcmVhZHkgdG8iICJFLW1haWwgbWVzc2FnZSIgIkFzeW5jaHJvbm91cyIKICAgICAgICBmaW5hbmNpYWxSaXNrU3lzdGVtIC0+IGNlbnRyYWxNb25pdG9yaW5nU2VydmljZSAiU2VuZHMgY3JpdGljYWwgZmFpbHVyZSBhbGVydHMgdG8iICJTTk1QIiAiQXN5bmNocm9ub3VzLCBBbGVydCIKICAgICAgICBmaW5hbmNpYWxSaXNrU3lzdGVtIC0+IGFjdGl2ZURpcmVjdG9yeSAiVXNlcyBmb3IgdXNlciBhdXRoZW50aWNhdGlvbiBhbmQgYXV0aG9yaXNhdGlvbiIKICAgIH0KICAgICAgICAgCiAgICB2aWV3cyB7CgogICAgICAgIHN5c3RlbUNvbnRleHQgZmluYW5jaWFsUmlza1N5c3RlbSAiQ29udGV4dCIgIkFuIGV4YW1wbGUgU3lzdGVtIENvbnRleHQgZGlhZ3JhbSBmb3IgdGhlIEZpbmFuY2lhbCBSaXNrIFN5c3RlbSBhcmNoaXRlY3R1cmUga2F0YS4iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICMgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRWxlbWVudCIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODAxNTE1CiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRmluYW5jaWFsIFJpc2sgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM1NTAwMDAKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJGdXR1cmUgU3RhdGUiIHsKICAgICAgICAgICAgICAgIG9wYWNpdHkgMzAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2Q0NmE2YQogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmVsYXRpb25zaGlwICJSZWxhdGlvbnNoaXAiIHsKICAgICAgICAgICAgICAgIGRhc2hlZCBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCAiQXN5bmNocm9ub3VzIiB7CiAgICAgICAgICAgICAgICBkYXNoZWQgdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlbGF0aW9uc2hpcCAiQWxlcnQiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZjAwMDAKICAgICAgICAgICAgfQogICAgICAgICAgICByZWxhdGlvbnNoaXAgIkZ1dHVyZSBTdGF0ZSIgewogICAgICAgICAgICAgICAgb3BhY2l0eSAzMAogICAgICAgICAgICB9CiAgICAgICB9CgogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "businessuser"
+      },
+      "name" : "Business User",
+      "description" : "A regular business user.",
+      "relationships" : [ {
+        "id" : "10",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2d1d9dc5-f16d-4e36-ad3c-ce7999e7a52c"
+        },
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Views reports using"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "configurationuser"
+      },
+      "name" : "Configuration User",
+      "description" : "A regular business user who can also configure the parameters used in the risk calculations.",
+      "relationships" : [ {
+        "id" : "14",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "7ace1d8d-61e7-4957-98e2-efc7ef881adb"
+        },
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Configures parameters using"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "9",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "activedirectory"
+      },
+      "name" : "Active Directory",
+      "description" : "The bank's authentication and authorisation system.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "emailsystem"
+      },
+      "name" : "E-mail system",
+      "description" : "The bank's Microsoft Exchange system.",
+      "relationships" : [ {
+        "id" : "16",
+        "tags" : "Relationship,Asynchronous",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4421eef1-918a-460d-ba9f-debf5b22223a"
+        },
+        "sourceId" : "7",
+        "destinationId" : "1",
+        "description" : "Sends a notification that a report is ready to",
+        "technology" : "E-mail message"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "tradedatasystem"
+      },
+      "name" : "Trade Data System",
+      "description" : "The system of record for trades of type X.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "referencedatasystem"
+      },
+      "name" : "Reference Data System",
+      "description" : "Manages reference data for all counterparties the bank interacts with.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,Future State",
+      "properties" : {
+        "structurizr.dsl.identifier" : "referencedatasystemv2"
+      },
+      "name" : "Reference Data System v2.0",
+      "description" : "Manages reference data for all counterparties the bank interacts with.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Financial Risk System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "financialrisksystem"
+      },
+      "name" : "Financial Risk System",
+      "description" : "Calculates the bank's exposure to risk for product X.",
+      "relationships" : [ {
+        "id" : "18",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "32f6b22d-5d2a-41bc-a778-03a2f17f3bed"
+        },
+        "sourceId" : "3",
+        "destinationId" : "9",
+        "description" : "Uses for user authentication and authorisation"
+      }, {
+        "id" : "15",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "fb0feda1-a9ed-48a3-a2f4-1c1e1b0be14f"
+        },
+        "sourceId" : "3",
+        "destinationId" : "7",
+        "description" : "Sends a notification that a report is ready to"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "77d0fc55-c119-41ec-88b1-801fb159c16e"
+        },
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Gets trade data from"
+      }, {
+        "id" : "13",
+        "tags" : "Relationship,Future State",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c817fb5f-858f-4947-8f3e-1e2a7f4de826"
+        },
+        "sourceId" : "3",
+        "destinationId" : "6",
+        "description" : "Gets counterparty data from"
+      }, {
+        "id" : "17",
+        "tags" : "Relationship,Asynchronous,Alert",
+        "properties" : {
+          "structurizr.dsl.identifier" : "7cd4f225-d7d0-4c7f-84f1-1f14576214ee"
+        },
+        "sourceId" : "3",
+        "destinationId" : "8",
+        "description" : "Sends critical failure alerts to",
+        "technology" : "SNMP"
+      }, {
+        "id" : "12",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "4048368d-342c-4a24-ba17-3c1c7859df1e"
+        },
+        "sourceId" : "3",
+        "destinationId" : "5",
+        "description" : "Gets counterparty data from"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : {
+        "sections" : [ {
+          "content" : "# Financial Risk System\n\n## Context\n\nA global investment bank based in London, New York and Singapore trades (buys and sells) financial products with other banks (counterparties). When share prices on the stock markets move up or down, the bank either makes money or loses it. At the end of the working day, the bank needs to gain a view of how much risk they are exposed to (e.g. of losing money) by running some calculations on the data held about their trades. The bank has an existing Trade Data System (TDS) and Reference Data System (RDS) but need a new Risk System.\n\n![](embed:Context)\n\n### Trade Data System\n\nThe Trade Data System maintains a store of all trades made by the bank. It is already configured to generate a file-based XML export of trade data at the close of business (5pm) in New York. The export includes the following information for every trade made by the bank:\n\n- Trade ID\n- Date\n- Current trade value in US dollars\n- Counterparty ID\n\n### Reference Data System\n\nThe Reference Data System maintains all of the reference data needed by the bank. This includes information about counterparties; each of which represents an individual, a bank, etc. A file-based XML export is also available and includes basic information about each counterparty. A new organisation-wide reference data system is due for completion in the next 3 months, with the current system eventually being decommissioned.",
+          "format" : "Markdown",
+          "filename" : "context.md",
+          "order" : 1,
+          "title" : ""
+        }, {
+          "content" : "## Functional Overview\n\nThe high-level functional requirements for the new Risk System are as follows.\n\n![Functional overview](images/functional-overview.png)\n\n1. Import trade data from the Trade Data System.\n2. Import counterparty data from the Reference Data System.\n3. Join the two sets of data together, enriching the trade data with information about the counterparty.\n4. For each counterparty, calculate the risk that the bank is exposed to.\n5. Generate a report that can be imported into Microsoft Excel containing the risk figures for all counterparties known by the bank.\n6. Distribute the report to the business users before the start of the next trading day (9am) in Singapore.\n7. Provide a way for a subset of the business users to configure and maintain the external parameters used by the risk calculations.\n",
+          "format" : "Markdown",
+          "filename" : "functional-overview.md",
+          "order" : 2,
+          "title" : ""
+        }, {
+          "content" : "## Quality Attributes\n\nThe quality attributes for the new Financial Risk System are as follows.\n\n### Performance\n\n- Risk reports must be generated before 9am the following business day in Singapore.\n \n### Scalability\n- The system must be able to cope with trade volumes for the next 5 years.\n- The Trade Data System export includes approximately 5000 trades now and it is anticipated that there will be an additional 10 trades per day.\n- The Reference Data System counterparty export includes approximately 20,000 counterparties and growth will be negligible.\n- There are 40-50 business users around the world that need access to the report.\n\n### Availability\n\n- Risk reports should be available to users 24x7, but a small amount of downtime (less than 30 minutes per day) can be tolerated.\n\n### Failover\n\n- Manual failover is sufficient for all system components, provided that the availability targets can be met.\n\n### Security\n\n- This system must follow bank policy that states system access is restricted to authenticated and authorised users only.\n- Reports must only be distributed to authorised users.\n- Only a subset of the authorised users are permitted to modify the parameters used in the risk calculations.\n- Although desirable, there are no single sign-on requirements (e.g. integration with Active Directory, LDAP, etc).\n- All access to the system and reports will be within the confines of the bank's global network.\n\n### Audit\n\n- The following events must be recorded in the system audit logs:\n  - Report generation.\n  - Modification of risk calculation parameters.\n- It must be possible to understand the input data that was used in calculating risk.\n\n### Fault Tolerance and Resilience\n\n- The system should take appropriate steps to recover from an error if possible, but all errors should be logged.\n- Errors preventing a counterparty risk calculation being completed should be logged and the process should continue.\n\n### Internationalization and Localization\n\n- All user interfaces will be presented in English only.\n- All reports will be presented in English only.\n- All trading values and risk figures will be presented in US dollars only.\n\n### Monitoring and Management\n\n- A Simple Network Management Protocol (SNMP) trap should be sent to the bank's Central Monitoring Service in the following circumstances:\n  - When there is a fatal error with a system component.\n  - When reports have not been generated before 9am Singapore time.\n\n### Data Retention and Archiving\n\n- Input files used in the risk calculation process must be retained for 1 year.\n\n### Interoperability\n\n- Interfaces with existing data systems should conform to and use existing data formats.",
+          "format" : "Markdown",
+          "filename" : "quality-attributes.md",
+          "order" : 3,
+          "title" : ""
+        } ],
+        "decisions" : [ {
+          "content" : "# 1. Record architecture decisions\n\nDate: 2020-06-05\n\n## Status\n\nAccepted\n\n## Context\n\nWe need to record the architectural decisions made on this project.\n\n## Decision\n\nWe will use Architecture Decision Records, as described by Michael Nygard in this article: [http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)\n\n## Consequences\n\nSee Michael Nygard's article, linked above.",
+          "format" : "Markdown",
+          "id" : "1",
+          "title" : "Record architecture decisions",
+          "date" : "2020-06-05T00:00:00Z",
+          "status" : "Accepted"
+        } ],
+        "images" : [ {
+          "name" : "images/functional-overview.png",
+          "content" : "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+fP1/HPJJZeYTYBrCM5wldx+Uwau008/3WwCACBqVq9ereefM88802wCXENwhqsWL16sB66LLrrIbAIAIGp+/PFHPf80aNDAbAJcQ3CGq+S2tDJwXXvttWYTAABRIztqyPwj19gA0UJwhqvGjh2rB64777zTbAIAIKrkFtEyB+3Zs8dsAlxBcIarhg0bpgetTp06mU0AAETVMccco+egbdu2mU2AKwjOcFW/fv30oPX000+bTQAARNUZZ5yh56A1a9aYTYArCM5wVc+ePfWg1adPH7MJAICouvDCC/UctGTJErMJcAXBGa569NFH9aA1aNAgswkAgKhq3ry5noO+/vprswlwBcEZrurQoYMetEaOHGk2AQAQVTfccIOegz7//HOzCXAFwRmuuuOOO/SgNW7cOLMJAICouv322/UcNGHCBLMJcAXBGa668cYb9aD12WefmU0AAERVu3bt9Bw0atQoswlwBcEZrmrRooUetJKTk80mAACi6pFHHtFz0Ntvv202Aa4gOMNVTZs21YNWWlqa2QQAQFQ99dRTeg7q37+/2QS4guAMV51zzjl60Fq5cqXZBABAVL3wwgt6DpL/AtFAcIarTjvtND1orV+/3mwCACCq5EyzzEHchAvRQnCGq6zbnf74449mEwAAUTV48GA9B8laZyAaCM5wVZ06dfSglZ+fbzYBABBVspuGzEHt27c3mwBXEJzhqqSkJD1o/fHHH2YTAABRNX78eD0HyT0FgGggOMM1v//+ux6watasaTYBABB1kydP1vPQLbfcYjYBriA4wzW7d+/WA5Ys1wAAINamTZum56GbbrrJbAJcQXCGa3bu3KkHrHr16plNAABE3fTp0/U81KpVK7MJcAXBGa7Zvn27HrDq169vNgEAEHWzZs3S89A111xjNgGuIDjDNdu2bdMD1rHHHms2AQAQdcnJyXoeatmypdkEuILgDNds3rxZD1gnnHCC2QQAQNSlpKToeeiKK64wmwBXEJzhmg0bNugB65RTTjGbAACIugULFuh56NJLLzWbAFcQnOGarKwsPWD99a9/NZsAAIi6xYsX63moadOmZhPgCoIzXLNmzRo9YJ155plmEwAAUZeenq7nofPPP99sAlxBcIZrVq1apQess88+22wCACDqvv32Wz0PNW7c2GwCXEFwhmsYsAAAlYkTOIg2gjNcw0dkAIDK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",
+          "type" : "image/png"
+        } ]
+      }
+    }, {
+      "id" : "8",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "centralmonitoringservice"
+      },
+      "name" : "Central Monitoring Service",
+      "description" : "The bank's central monitoring and alerting dashboard.",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "Context",
+      "order" : 1,
+      "description" : "An example System Context diagram for the Financial Risk System architecture kata.",
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 4600,
+        "height" : 2000
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 2720,
+        "y" : 525
+      }, {
+        "id" : "2",
+        "x" : 1020,
+        "y" : 555
+      }, {
+        "id" : "3",
+        "x" : 1850,
+        "y" : 370
+      }, {
+        "id" : "4",
+        "x" : 425,
+        "y" : 1085
+      }, {
+        "id" : "5",
+        "x" : 1135,
+        "y" : 1110
+      }, {
+        "id" : "6",
+        "x" : 1760,
+        "y" : 1120
+      }, {
+        "id" : "7",
+        "x" : 3650,
+        "y" : 1090
+      }, {
+        "id" : "8",
+        "x" : 2385,
+        "y" : 1140
+      }, {
+        "id" : "9",
+        "x" : 2955,
+        "y" : 1150
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "11",
+        "vertices" : [ {
+          "x" : 584,
+          "y" : 1879
+        } ]
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Element",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Software System",
+          "background" : "#801515",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "Financial Risk System",
+          "background" : "#550000",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Future State",
+          "opacity" : 30
+        }, {
+          "tag" : "Person",
+          "background" : "#d46a6a",
+          "shape" : "Person"
+        } ],
+        "relationships" : [ {
+          "tag" : "Relationship",
+          "dashed" : false
+        }, {
+          "tag" : "Asynchronous",
+          "dashed" : true
+        }, {
+          "tag" : "Alert",
+          "color" : "#ff0000"
+        }, {
+          "tag" : "Future State",
+          "opacity" : 30
+        } ]
+      },
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Context"
+    }
+  }
+}
